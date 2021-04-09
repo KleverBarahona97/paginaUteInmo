@@ -1,0 +1,250 @@
+|<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avaluo</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link href="../css/styles.css?v=8" rel="stylesheet" type="text/css" media="all" />
+<script language="JavaScript" src="../js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="../js/aval.js?v=14"></script>
+<script src="/js/jquery.tools.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/skinCalendario.css"/>
+<script language="JavaScript" src="../Graficos/FusionCharts.js"></script>
+<link rel="stylesheet" href="../Graficos/Style.css" type="text/css" />
+<link rel="stylesheet" href="../css/aval.css?v=2" type="text/css" />
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="..img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="..img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="..img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="..img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="../css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="../css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+
+<!-- Stylesheet aa
+    ================================================== -->
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="../css/styles.css?v=8" rel="stylesheet" type="text/css" media="all" />
+    <script language="JavaScript" src="../js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="../js/aval.js?v=14"></script>
+    <script src="../js/jquery.tools.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/skinCalendario.css"/>
+    <script language="JavaScript" src="../Graficos/FusionCharts.js"></script>
+    <link rel="stylesheet" href="../Graficos/Style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/aval.css?v=2" type="text/css" />
+    </head>
+    <body>
+    
+    <script language="JavaScript" src="../js/Inmobiliaria.js"></script>
+
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="#page-top">nombre de la empresa</a>
+      <div class="phone"><a href="#about" class="btn btn-custom btn-lg page-scroll">Realiza tu avaluo</a></div>
+     
+    </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about" class="page-scroll">Nosotros</a></li>
+        <li><a href="#services" class="page-scroll">Servicios</a></li>
+        <li><a href="#portfolio" class="page-scroll">Proyectos</a></li>
+        <li><a href="#calculadora" class="page-scroll">Calculadora de credito</a></li>
+        <li><a href="#testimonials" class="page-scroll">Testimonios</a></li>
+        <li><a href="#contact" class="page-scroll">Contactos</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+</nav>
+<!-- Header -->
+
+<!-- Get Touch Section -->
+
+
+<!-- Services Section -->
+<div id="services">
+  <div class="container">
+    <div class="section-title">
+      <br></br>
+      <h2>Evaluador Inmuebles</h2>
+    </div>
+    <div id="content">
+    <div id="content_cen">	
+    
+      <div id="form_aval">	
+        <p>Obvserva los costos promedios en M<sup>2</sup> de construcci&oacute;n y M<sup>2</sup> de terreno de acuerdo al sector donde vives y el tipo de inmueble que posees o est&aacute;s buscando (casas, apartamentos, terrenos, oficinas y mucho m&aacute;s)</p>
+    
+        <div class="frm">
+          <span class="cab-par">Unicaci&oacute;n</span>
+          <ul>
+            <li class="lab">Provincia</li>
+            <li class="selct">
+              <select name="provincia" id="provincia" onchange="cargaSelect('canton','#canton',this);cambiar_mapa();"> 
+                <option value="0" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.k52HHfg9SuI0">- Todas- </option>    
+                  
+                  <option value="1" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.k8pQ-O4VydBE">Azuay</option> 				
+                  
+                  <option value="2" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kQFwz4yJ8KsE">Bolívar</option> 				
+                  
+                  <option value="3" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kmQFK6q0KUz8">Cañar</option> 				
+                  
+                  <option value="4" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.k85EJAYUykRQ">Carchi</option> 				
+                  
+                  <option value="5" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kqHs24FXrARo">Chimborazo</option> 				
+                  
+                  <option value="6" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kfb33UZ4PL-Y">Cotopaxi</option> 				
+                  
+                  <option value="7" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.k0xkBXtWXq8A">El Oro</option> 				
+                  
+                  <option value="8" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.k-ujNPfevgYU">Esmeraldas</option> 				
+                  
+                  <option value="9" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kcQZqHnoatKQ">Galápagos</option> 				
+                  
+                  <option value="10" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kPZjxRU9oubc">Guayas</option> 				
+                  
+                  <option value="11" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kDaGqF9hcCrQ">Imbabura</option> 				
+                  
+                  <option value="12" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.knjGjJl_9T-k">Loja</option> 				
+                  
+                  <option value="13" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kytsLgJwPy8k">Los Ríos</option> 				
+                  
+                  <option value="14" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kIKYkHoUB8y8">Manabí</option> 				
+                  
+                  <option value="15" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kEGs-2dhrlXI">Morona Santiago</option> 				
+                  
+                  <option value="16" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kMq-1MNnU4R8">Napo</option> 				
+                  
+                  <option value="17" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kKYnVqXW63k0">Orellana</option> 				
+                  
+                  <option value="18" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kmzt76bJbWdw">Pastaza</option> 				
+                  
+                  <option value="19" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kpAKeSCpM13w">Pichincha</option> 				
+                  
+                  <option value="20" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kdSXhBsQcXvY">Santa Elena</option> 				
+                  
+                  <option value="21" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kLJOO-bDIoeg">Sto. Domingo de los Tsachilas</option> 				
+                  
+                  <option value="22" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kuAlxgCLkwTA">Sucumbíos</option> 				
+                  
+                  <option value="23" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.kFrB4aBhQEBM">Tungurahua</option> 				
+                  
+                  <option value="24" link-mapa="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.ktOGIEKjirYI">Zamora Chinchipe</option> 				
+                  
+              </select>
+            </li>
+            <li class="lab">Cant&oacute;n</li>
+            <li class="selct"><select name="canton" id="canton" onchange="cargaSelect('ciudad','#ciudad',this);"><option value="0">- Todos- </option></select></li>
+            <li class="lab">Ciudad</li>
+            <li class="selct"><select name="ciudad" id="ciudad" onchange="cargaSelect('zona','#zona',this);"><option value="0">- Todas- </option></select></li>
+            <li class="lab">Zona</li>
+            <li class="selct"><select name="zona" id="zona" onchange="cargaSelect('sector','#sector',this);"><option value="0">- Todas- </option></select></li>
+            <li class="lab">Sector</li>
+            <li class="selct"><select name="sector" id="sector"><option value="0">- Todos- </option></select></li>
+            <div class="clear"></div>
+          </ul>
+          
+          <span class="cab-par">Caracter&iacute;sticas</span>
+          <ul>
+            <li class="lab">Base</li>
+            <li class="selct">
+              <select name="base" id="base">
+                <option value="1">m<sup>2</sup> de terreno</option>
+                <option value="2">m<sup>2</sup> de construcci&oacute;n</option>
+              </select>
+            </li>
+            <li class="lab">Regimen</li>
+            <li class="selct">
+              <select name="regimen" id="regimen">
+                <option value="1">Venta</option>
+                <option value="2">Alquiler</option>
+                <option value="3">Venta y Alquiler</option>
+              </select>
+            </li>
+            <li class="lab">Tipo</li>
+            <li class="selct">
+              <select name="tipo" id="tipo">
+                
+                <option value="1">Casas</option> 
+                
+                <option value="2">Consultorios</option> 
+                
+                <option value="3">Departamentos</option> 
+                
+                <option value="4">Edificios</option> 
+                
+                <option value="5">Haciendas</option> 
+                
+          
+                
+              </select>
+            </li>
+            <div class="clear"></div>
+          </ul>
+          <span class="cab-par">Historial</span>
+          <ul>
+            <li class="lab">Desde</li>
+            <li class="selct"><input type="date" name="fech_desde" id="fech_desde" class="date" value="01/01/2012"></li>
+            <li class="lab">Hasta</li>
+            <li class="selct"><input type="date" name="fech_hasta" id="fech_hasta" class="date" value="02/04/2021"></li>
+            <div class="clear"></div>
+          </ul>		
+           <button class="small button blue" id="graficar" onclick="javascript: avaluo();">Aceptar</button>
+        </div><!-- frm -->
+        <div class="map">
+          <span class="cab-par">Mapa</span>
+          <div class="mp-iframe">
+            <iframe id="map_ecuador" src="https://mapsengine.google.com/map/embed?mid=z8M6YjTuGviI.k52HHfg9SuI0" width="500" height="330"></iframe>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div id="resultado"></div>
+      </div><!-- form_aval -->
+    </div></div>
+  </div>
+</div>
+
+<!-- Footer Section -->
+
+<script type="text/javascript" src="..js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="..js/bootstrap.js"></script> 
+<script type="text/javascript" src="..js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="..js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="..js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="..js/contact_me.js"></script> 
+<script type="text/javascript" src="..js/main.js"></script>
+</body>
+</html>
