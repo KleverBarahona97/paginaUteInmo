@@ -556,5 +556,9 @@ color: #777;
 	padding: 33px;
 	min-height: 250px;
 	border-radius: 22px;
+	position: absolute;
+	left: 35%;
+	top: 35%;
+	display: none;
 
 }
