@@ -551,9 +551,9 @@ color: #777;
 	padding: 33px;
 	min-height: 250px;
 	border-radius: 22px;
-	position: absolute;
+	position:static;
 	left: 35%;
-	top: 1500%;
+	top: 380%;
 	display: none;
 
 }
