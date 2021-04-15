@@ -538,3 +538,10 @@ color: #777;
 	margin: 50px 0;
 }
 }
+
+#cerrar{
+	position: absolute;
+	right: 3px;
+	top: 1px;
+
+}
