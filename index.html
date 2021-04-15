@@ -67,6 +67,7 @@
 </nav>
 <!-- Header -->
 <div class="ventana" id="vent">
+  <div id="cerrar"> <a href="javascript:cerrar()"><img src="img/cancelar.png" width="10" height="20"> </a> </div>
             
   REQUISITOS DEL Biess
 
@@ -393,6 +394,9 @@
 </div>
 
 <script> function abrir(){document.getElementById("vent").style.display="block";
+} </script> 
+
+<script> function cerrar(){document.getElementById("vent").style.display="none";
 } </script> 
 
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
