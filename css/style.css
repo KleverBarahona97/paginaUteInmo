@@ -540,6 +540,8 @@ color: #777;
 }
 
 #cerrar{
+	width: 2px;
+	height: 1px;
 	position: absolute;
 	right: 3px;
 	top: 1px;
