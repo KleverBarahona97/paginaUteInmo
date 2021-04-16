@@ -18,11 +18,13 @@
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
+
    
 
 <!-- Stylesheet
     ================================================== -->
-  
+    
+<link rel="stylesheet" href="estilos.css"> 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
@@ -196,24 +198,26 @@
  
 
 <div id="calculadora">
-  <div class="ventana" id="vent">
-    <div id="cerrar"> <a href="javascript:cerrar()"><img src="img/cancelar.png" width="20" height="20"> </a> </div>
-              
-    Lo que necesita llevar
-    <br></br>
-    <ol style="list-style-type: circle">
-  
-      <li> Dos copias legibles de cédulas y papeletas de votación de deudor, garante y cónyuges.</li>
-      <li> Copia de planilla actual de un servicio básico de deudor y garante de los últimos 2 meses.</li>
-      <li> Documentos que certifiquen al menos un año de experiencia en el negocio. </li>
-      <li> Certificado de ingresos, Impuesto predial si aplica. </li>
-      
-      
-      </ol>
-  
-  </div>
-  
   <div class="container">
+    <a id="btn-abrir-popup" class="btn-abrir-popup">REQUISITOS</a>
+			
+		</article>
+
+		<div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h3>Lo Que necesitas llevar</h3>
+				<ol style="list-style-type: circle">
+  
+					<li> Dos copias legibles de cédulas y papeletas de votación de deudor, garante y cónyuges.</li>
+					<li> Copia de planilla actual de un servicio básico de deudor y garante de los últimos 2 meses.</li>
+					<li> Documentos que certifiquen al menos un año de experiencia en el negocio. </li>
+					<li> Certificado de ingresos, Impuesto predial si aplica. </li>
+					
+					
+					</ol>
+			</div>
+		</div>
     <div class="section-title">
       <h2>Calculadora bancaria</h2>
     </div>
@@ -231,7 +235,7 @@
       </div>
 <!-- SEGUNDO BANCO -->
 
-   <!--    <div class="col-md-4">
+       <div class="col-md-4">
         <div class="service-media"> </div>
         <div class="service-desc">
           <h3>Miduvi</h3>
@@ -275,7 +279,7 @@
             <img src="https://strapi.constructorespositivos.com/uploads/produbanco_0605dff455.jpg" data-v-7e900a89 width="320"></div> 
             <span data-v-7e900a89>CALCULADORA PRODUBANCO</span></a>        </div>
       </div>
-    </div> -->
+    </div> 
   </div>
 </div>
 <!-- Testimonials Section -->
@@ -410,11 +414,7 @@
   </div>
 </div>
 
-<script> function abrir(){document.getElementById("vent").style.display="block";
-} </script> 
 
-<script> function cerrar(){document.getElementById("vent").style.display="none";
-} </script> 
 
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
