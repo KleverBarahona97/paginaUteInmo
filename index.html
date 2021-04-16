@@ -18,13 +18,11 @@
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-
    
 
 <!-- Stylesheet
     ================================================== -->
-    
-<link rel="stylesheet" href="estilos.css"> 
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">  
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
@@ -44,6 +42,8 @@
     ==========================================-->
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
   <div class="container"> 
+
+    
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
@@ -68,9 +68,9 @@
   </div>
 </nav>
 <!-- Header -->
-
 <header id="header">
   <div class="intro">
+    
     <div class="overlay">
       <div class="container">
         <div class="row">
@@ -184,6 +184,7 @@
   </div>
 </div>
 <!-- Gallery Section -->
+
 <div id="portfolio">
   <div class="container">
     <div class="section-title">
@@ -194,30 +195,29 @@
     <div class="phone"><a href="Paginas/Alemana.html" class="btn btn-custom btn-lg page-scroll">Amortización Alemana</a></div>
   </div>
 </div>
+
 <!-- calculadora Section -->
- 
-
-<div id="calculadora">
-  <div class="container">
-    <a id="btn-abrir-popup" class="btn-abrir-popup">REQUISITOS</a>
-			
-		</article>
-
-		<div class="overlay" id="overlay">
-			<div class="popup" id="popup">
-				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-				<h3>Lo Que necesitas llevar</h3>
-				<ol style="list-style-type: circle">
+<div class="contenedor">
+  <div class="overlay" id="overlay">
+    <div class="popup" id="popup">
+      <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+      <h3>Lo que necesita llevar</h3>
+      <br></br>
+    <ol style="list-style-type: circle">
   
-					<li> Dos copias legibles de cédulas y papeletas de votación de deudor, garante y cónyuges.</li>
-					<li> Copia de planilla actual de un servicio básico de deudor y garante de los últimos 2 meses.</li>
-					<li> Documentos que certifiquen al menos un año de experiencia en el negocio. </li>
-					<li> Certificado de ingresos, Impuesto predial si aplica. </li>
-					
-					
-					</ol>
-			</div>
-		</div>
+      <li> Dos copias legibles de cédulas y papeletas de votación de deudor, garante y cónyuges.</li>
+      <li> Copia de planilla actual de un servicio básico de deudor y garante de los últimos 2 meses.</li>
+      <li> Documentos que certifiquen al menos un año de experiencia en el negocio. </li>
+      <li> Certificado de ingresos, Impuesto predial si aplica. </li>
+      
+      
+      </ol>
+    </div>
+  </div>
+</div>
+<div id="calculadora">
+  
+  <div class="container">
     <div class="section-title">
       <h2>Calculadora bancaria</h2>
     </div>
@@ -228,14 +228,13 @@
           <h3>BIESS</h3>
           <a href="https://ph.biess.fin.ec/ph-web/main.jsf" target="_blank" data-v-7e900a89><div class="logo-banco" data-v-7e900a89>
           <img src="https://strapi.constructorespositivos.com/uploads/biess_f203c8c928.jpg" data-v-7e900a89></div> <span data-v-7e900a89>CALCULADORA BIESS</span></a>
-          <br></br><a href="javascript:abrir()"> REQUISITOS</a></div>
-         
+          <br></br> <a id="btn-abrir-popup" class="btn-abrir-popup"> REQUISITOS</a></div>
          
           <div class="col-sm-4 calculadora-item" data-v-7e900a89></div>
       </div>
-<!-- SEGUNDO BANCO -->
 
-       <div class="col-md-4">
+  <!-- segundo banco -->    
+      <!-- <div class="col-md-4">
         <div class="service-media"> </div>
         <div class="service-desc">
           <h3>Miduvi</h3>
@@ -278,9 +277,10 @@
           <a href="https://www.produbanco.com.ec/banca-minorista/cr%C3%A9ditos/hipotecario/simulador-de-cr%C3%A9dito-hipotecario/" target="_blank" data-v-7e900a89><div class="logo-banco" data-v-7e900a89>
             <img src="https://strapi.constructorespositivos.com/uploads/produbanco_0605dff455.jpg" data-v-7e900a89 width="320"></div> 
             <span data-v-7e900a89>CALCULADORA PRODUBANCO</span></a>        </div>
-      </div>
-    </div> 
+      </div> <!-- segundo banco --> 
+    </div>
   </div>
+</div>
 </div>
 <!-- Testimonials Section -->
 <div id="testimonials">
@@ -413,9 +413,6 @@
     <p>&copy; nombre de quien diseño la paguina <a href="http://www.templatewire.com" rel="nofollow">UTE</a></p>
   </div>
 </div>
-
-
-
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
@@ -423,5 +420,6 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
 </body>
 </html>
