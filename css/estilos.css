@@ -50,7 +50,7 @@
 /* POPUP */
 /* ------------------------- */
 
-.overlay {
+.overlay1 {
 	background: rgba(0,0,0,.3);
 	position: fixed;
 	top: 0;
@@ -63,7 +63,7 @@
 	visibility: hidden;
 }
 
-.overlay.active {
+.overlay1.active {
 	visibility: visible;
 }
 
@@ -87,11 +87,11 @@
 	display: block;
 	text-align: right;
 	transition: .3s ease all;
-	color: #BBBBBB;
+	color: #df0a0a;
 }
 
 .popup .btn-cerrar-popup:hover {
-	color: #000;
+	color: rgb(221, 12, 12);
 }
 
 .popup h3 {
